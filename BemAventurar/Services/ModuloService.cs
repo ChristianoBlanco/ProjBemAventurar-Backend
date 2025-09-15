@@ -24,7 +24,7 @@ namespace BemAventurar.Services
             return await connection.QueryAsync<Modulo>("select * from Modulos");
         }
 
-        //Método listar usuários
+        //Método listar módulos
         public async Task<ResponseModel<List<ModuloDTO>>> ListarModulos()
         {
             var response = new ResponseModel<List<ModuloDTO>>();

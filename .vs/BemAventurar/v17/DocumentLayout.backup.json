@@ -3,32 +3,28 @@
   "WorkspaceRootPath": "C:\\Projetos\\Proj-BemAventurar\\BemAventurar\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BDF3E8EC-45FD-4B34-8EC5-F6F05BC9AAE3}|BemAventurar\\BemAventurar.csproj|c:\\projetos\\proj-bemaventurar\\bemaventurar\\bemaventurar\\controllers\\permissaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDF3E8EC-45FD-4B34-8EC5-F6F05BC9AAE3}|BemAventurar\\BemAventurar.csproj|solutionrelative:bemaventurar\\controllers\\permissaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDF3E8EC-45FD-4B34-8EC5-F6F05BC9AAE3}|BemAventurar\\BemAventurar.csproj|c:\\projetos\\proj-bemaventurar\\bemaventurar\\bemaventurar\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDF3E8EC-45FD-4B34-8EC5-F6F05BC9AAE3}|BemAventurar\\BemAventurar.csproj|solutionrelative:bemaventurar\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDF3E8EC-45FD-4B34-8EC5-F6F05BC9AAE3}|BemAventurar\\BemAventurar.csproj|c:\\projetos\\proj-bemaventurar\\bemaventurar\\bemaventurar\\services\\permissaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDF3E8EC-45FD-4B34-8EC5-F6F05BC9AAE3}|BemAventurar\\BemAventurar.csproj|solutionrelative:bemaventurar\\services\\permissaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BDF3E8EC-45FD-4B34-8EC5-F6F05BC9AAE3}|BemAventurar\\BemAventurar.csproj|c:\\projetos\\proj-bemaventurar\\bemaventurar\\bemaventurar\\controllers\\inscricaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDF3E8EC-45FD-4B34-8EC5-F6F05BC9AAE3}|BemAventurar\\BemAventurar.csproj|solutionrelative:bemaventurar\\controllers\\inscricaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BDF3E8EC-45FD-4B34-8EC5-F6F05BC9AAE3}|BemAventurar\\BemAventurar.csproj|c:\\projetos\\proj-bemaventurar\\bemaventurar\\bemaventurar\\services\\moduloservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BDF3E8EC-45FD-4B34-8EC5-F6F05BC9AAE3}|BemAventurar\\BemAventurar.csproj|solutionrelative:bemaventurar\\services\\moduloservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDF3E8EC-45FD-4B34-8EC5-F6F05BC9AAE3}|BemAventurar\\BemAventurar.csproj|c:\\projetos\\proj-bemaventurar\\bemaventurar\\bemaventurar\\services\\ipermissaointerface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDF3E8EC-45FD-4B34-8EC5-F6F05BC9AAE3}|BemAventurar\\BemAventurar.csproj|solutionrelative:bemaventurar\\services\\ipermissaointerface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BDF3E8EC-45FD-4B34-8EC5-F6F05BC9AAE3}|BemAventurar\\BemAventurar.csproj|c:\\projetos\\proj-bemaventurar\\bemaventurar\\bemaventurar\\controllers\\modulocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDF3E8EC-45FD-4B34-8EC5-F6F05BC9AAE3}|BemAventurar\\BemAventurar.csproj|solutionrelative:bemaventurar\\controllers\\modulocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BDF3E8EC-45FD-4B34-8EC5-F6F05BC9AAE3}|BemAventurar\\BemAventurar.csproj|c:\\projetos\\proj-bemaventurar\\bemaventurar\\bemaventurar\\services\\imodulointerface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BDF3E8EC-45FD-4B34-8EC5-F6F05BC9AAE3}|BemAventurar\\BemAventurar.csproj|solutionrelative:bemaventurar\\services\\imodulointerface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDF3E8EC-45FD-4B34-8EC5-F6F05BC9AAE3}|BemAventurar\\BemAventurar.csproj|c:\\projetos\\proj-bemaventurar\\bemaventurar\\bemaventurar\\controllers\\modulocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDF3E8EC-45FD-4B34-8EC5-F6F05BC9AAE3}|BemAventurar\\BemAventurar.csproj|solutionrelative:bemaventurar\\controllers\\modulocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BDF3E8EC-45FD-4B34-8EC5-F6F05BC9AAE3}|BemAventurar\\BemAventurar.csproj|c:\\projetos\\proj-bemaventurar\\bemaventurar\\bemaventurar\\services\\iinscricaointerface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDF3E8EC-45FD-4B34-8EC5-F6F05BC9AAE3}|BemAventurar\\BemAventurar.csproj|solutionrelative:bemaventurar\\services\\iinscricaointerface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDF3E8EC-45FD-4B34-8EC5-F6F05BC9AAE3}|BemAventurar\\BemAventurar.csproj|c:\\projetos\\proj-bemaventurar\\bemaventurar\\bemaventurar\\services\\inscricaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDF3E8EC-45FD-4B34-8EC5-F6F05BC9AAE3}|BemAventurar\\BemAventurar.csproj|solutionrelative:bemaventurar\\services\\inscricaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,97 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UsuarioService.cs",
-              "DocumentMoniker": "C:\\Projetos\\Proj-BemAventurar\\BemAventurar\\BemAventurar\\Services\\UsuarioService.cs",
-              "RelativeDocumentMoniker": "BemAventurar\\Services\\UsuarioService.cs",
-              "ToolTip": "C:\\Projetos\\Proj-BemAventurar\\BemAventurar\\BemAventurar\\Services\\UsuarioService.cs",
-              "RelativeToolTip": "BemAventurar\\Services\\UsuarioService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T18:58:47.452Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PermissaoService.cs",
-              "DocumentMoniker": "C:\\Projetos\\Proj-BemAventurar\\BemAventurar\\BemAventurar\\Services\\PermissaoService.cs",
-              "RelativeDocumentMoniker": "BemAventurar\\Services\\PermissaoService.cs",
-              "ToolTip": "C:\\Projetos\\Proj-BemAventurar\\BemAventurar\\BemAventurar\\Services\\PermissaoService.cs",
-              "RelativeToolTip": "BemAventurar\\Services\\PermissaoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T18:21:53.847Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PermissaoController.cs",
-              "DocumentMoniker": "C:\\Projetos\\Proj-BemAventurar\\BemAventurar\\BemAventurar\\Controllers\\PermissaoController.cs",
-              "RelativeDocumentMoniker": "BemAventurar\\Controllers\\PermissaoController.cs",
-              "ToolTip": "C:\\Projetos\\Proj-BemAventurar\\BemAventurar\\BemAventurar\\Controllers\\PermissaoController.cs",
-              "RelativeToolTip": "BemAventurar\\Controllers\\PermissaoController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAFAAAAAAAAAA==",
+              "Title": "InscricaoController.cs",
+              "DocumentMoniker": "C:\\Projetos\\Proj-BemAventurar\\BemAventurar\\BemAventurar\\Controllers\\InscricaoController.cs",
+              "RelativeDocumentMoniker": "BemAventurar\\Controllers\\InscricaoController.cs",
+              "ToolTip": "C:\\Projetos\\Proj-BemAventurar\\BemAventurar\\BemAventurar\\Controllers\\InscricaoController.cs",
+              "RelativeToolTip": "BemAventurar\\Controllers\\InscricaoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T18:20:41.434Z",
+              "WhenOpened": "2025-09-12T00:16:07.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "InscricaoService.cs",
+              "DocumentMoniker": "C:\\Projetos\\Proj-BemAventurar\\BemAventurar\\BemAventurar\\Services\\InscricaoService.cs",
+              "RelativeDocumentMoniker": "BemAventurar\\Services\\InscricaoService.cs",
+              "ToolTip": "C:\\Projetos\\Proj-BemAventurar\\BemAventurar\\BemAventurar\\Services\\InscricaoService.cs",
+              "RelativeToolTip": "BemAventurar\\Services\\InscricaoService.cs",
+              "ViewState": "AgIAANwAAAAAAAAAAAAkwBYBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T23:22:00.571Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "IPermissaoInterface.cs",
-              "DocumentMoniker": "C:\\Projetos\\Proj-BemAventurar\\BemAventurar\\BemAventurar\\Services\\IPermissaoInterface.cs",
-              "RelativeDocumentMoniker": "BemAventurar\\Services\\IPermissaoInterface.cs",
-              "ToolTip": "C:\\Projetos\\Proj-BemAventurar\\BemAventurar\\BemAventurar\\Services\\IPermissaoInterface.cs",
-              "RelativeToolTip": "BemAventurar\\Services\\IPermissaoInterface.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA9AAAAAAAAAA==",
+              "Title": "IInscricaoInterface.cs",
+              "DocumentMoniker": "C:\\Projetos\\Proj-BemAventurar\\BemAventurar\\BemAventurar\\Services\\IInscricaoInterface.cs",
+              "RelativeDocumentMoniker": "BemAventurar\\Services\\IInscricaoInterface.cs",
+              "ToolTip": "C:\\Projetos\\Proj-BemAventurar\\BemAventurar\\BemAventurar\\Services\\IInscricaoInterface.cs",
+              "RelativeToolTip": "BemAventurar\\Services\\IInscricaoInterface.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T18:20:15.181Z",
+              "WhenOpened": "2025-09-11T23:21:29.977Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
+              "Title": "IModuloInterface.cs",
+              "DocumentMoniker": "C:\\Projetos\\Proj-BemAventurar\\BemAventurar\\BemAventurar\\Services\\IModuloInterface.cs",
+              "RelativeDocumentMoniker": "BemAventurar\\Services\\IModuloInterface.cs",
+              "ToolTip": "C:\\Projetos\\Proj-BemAventurar\\BemAventurar\\BemAventurar\\Services\\IModuloInterface.cs",
+              "RelativeToolTip": "BemAventurar\\Services\\IModuloInterface.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T23:48:15.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ModuloController.cs",
               "DocumentMoniker": "C:\\Projetos\\Proj-BemAventurar\\BemAventurar\\BemAventurar\\Controllers\\ModuloController.cs",
               "RelativeDocumentMoniker": "BemAventurar\\Controllers\\ModuloController.cs",
               "ToolTip": "C:\\Projetos\\Proj-BemAventurar\\BemAventurar\\BemAventurar\\Controllers\\ModuloController.cs",
               "RelativeToolTip": "BemAventurar\\Controllers\\ModuloController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-23T01:19:50.587Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "ModuloService.cs",
               "DocumentMoniker": "C:\\Projetos\\Proj-BemAventurar\\BemAventurar\\BemAventurar\\Services\\ModuloService.cs",
               "RelativeDocumentMoniker": "BemAventurar\\Services\\ModuloService.cs",
               "ToolTip": "C:\\Projetos\\Proj-BemAventurar\\BemAventurar\\BemAventurar\\Services\\ModuloService.cs",
               "RelativeToolTip": "BemAventurar\\Services\\ModuloService.cs",
-              "ViewState": "AgIAAJcAAAAAAAAAAAAAAKIAAABfAAAAAAAAAA==",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAswFUAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-22T23:48:40.636Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IModuloInterface.cs",
-              "DocumentMoniker": "C:\\Projetos\\Proj-BemAventurar\\BemAventurar\\BemAventurar\\Services\\IModuloInterface.cs",
-              "RelativeDocumentMoniker": "BemAventurar\\Services\\IModuloInterface.cs",
-              "ToolTip": "C:\\Projetos\\Proj-BemAventurar\\BemAventurar\\BemAventurar\\Services\\IModuloInterface.cs",
-              "RelativeToolTip": "BemAventurar\\Services\\IModuloInterface.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABTAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T23:48:15.885Z",
               "EditorCaption": ""
             }
           ]

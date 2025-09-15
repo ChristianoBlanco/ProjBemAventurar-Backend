@@ -16,6 +16,7 @@ builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.AddScoped<IUsuarioInterface, UsuarioService>();
 builder.Services.AddScoped<IModuloInterface, ModuloService>();
 builder.Services.AddScoped<IPermissaoInterface, PermissaoService>();
+builder.Services.AddScoped<IInscricaoInterface, InscricaoService>();
 
 // Configuração do CORS
 builder.Services.AddCors(options =>

@@ -17,6 +17,7 @@ builder.Services.AddScoped<IUsuarioInterface, UsuarioService>();
 builder.Services.AddScoped<IModuloInterface, ModuloService>();
 builder.Services.AddScoped<IPermissaoInterface, PermissaoService>();
 builder.Services.AddScoped<IInscricaoInterface, InscricaoService>();
+builder.Services.AddScoped<IEventoInterface, EventoService>();
 
 // Configuração do CORS
 builder.Services.AddCors(options =>

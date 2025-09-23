@@ -18,6 +18,8 @@ builder.Services.AddScoped<IModuloInterface, ModuloService>();
 builder.Services.AddScoped<IPermissaoInterface, PermissaoService>();
 builder.Services.AddScoped<IInscricaoInterface, InscricaoService>();
 builder.Services.AddScoped<IEventoInterface, EventoService>();
+builder.Services.AddScoped<IEventoFaqInterface, EventoFaqService>();
+builder.Services.AddScoped<IEventoFotoInterface, EventoFotoService>();
 
 // Configuração do CORS
 builder.Services.AddCors(options =>

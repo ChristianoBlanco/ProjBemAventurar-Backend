@@ -7,8 +7,8 @@ namespace BemAventurar.Services
     {
         Task<ResponseModel<List<EventoFotoDTO>>> ListarEventosFoto();
         Task<ResponseModel<EventoFotoDTO>> BuscarEventoFoto(int eventoId, string nomeFoto);
-        Task<ResponseModel<List<EventoFotoDTO>>> CriarEventoFaq(EventoFotoDTO eventoFoto);
-        Task<ResponseModel<List<EventoFotoDTO>>> AtualizarEventoFaq(EventoFotoDTO eventoFoto);
-        Task<ResponseModel<List<EventoFotoDTO>>> DeletarEventoFaq(int fotoId);
+        Task<ResponseModel<List<EventoFotoDTO>>> CriarEventoFoto(EventoFotoDTO eventoFoto);
+        Task<ResponseModel<List<EventoFotoDTO>>> AtualizarEventoFoto(EventoFotoDTO eventoFoto);
+        Task<ResponseModel<List<EventoFotoDTO>>> DeletarEventoFoto(int fotoId);
     }
 }

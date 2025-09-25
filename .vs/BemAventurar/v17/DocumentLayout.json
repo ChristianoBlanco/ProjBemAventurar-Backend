@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Projetos\\Proj-BemAventurar\\BemAventurar\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BDF3E8EC-45FD-4B34-8EC5-F6F05BC9AAE3}|BemAventurar\\BemAventurar.csproj|c:\\projetos\\proj-bemaventurar\\bemaventurar\\bemaventurar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDF3E8EC-45FD-4B34-8EC5-F6F05BC9AAE3}|BemAventurar\\BemAventurar.csproj|solutionrelative:bemaventurar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BDF3E8EC-45FD-4B34-8EC5-F6F05BC9AAE3}|BemAventurar\\BemAventurar.csproj|c:\\projetos\\proj-bemaventurar\\bemaventurar\\bemaventurar\\services\\eventoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDF3E8EC-45FD-4B34-8EC5-F6F05BC9AAE3}|BemAventurar\\BemAventurar.csproj|solutionrelative:bemaventurar\\services\\eventoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDF3E8EC-45FD-4B34-8EC5-F6F05BC9AAE3}|BemAventurar\\BemAventurar.csproj|c:\\projetos\\proj-bemaventurar\\bemaventurar\\bemaventurar\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDF3E8EC-45FD-4B34-8EC5-F6F05BC9AAE3}|BemAventurar\\BemAventurar.csproj|solutionrelative:bemaventurar\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Projetos\\Proj-BemAventurar\\BemAventurar\\BemAventurar\\Program.cs",
-              "RelativeDocumentMoniker": "BemAventurar\\Program.cs",
-              "ToolTip": "C:\\Projetos\\Proj-BemAventurar\\BemAventurar\\BemAventurar\\Program.cs",
-              "RelativeToolTip": "BemAventurar\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAzAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "UsuarioService.cs",
+              "DocumentMoniker": "C:\\Projetos\\Proj-BemAventurar\\BemAventurar\\BemAventurar\\Services\\UsuarioService.cs",
+              "RelativeDocumentMoniker": "BemAventurar\\Services\\UsuarioService.cs",
+              "ToolTip": "C:\\Projetos\\Proj-BemAventurar\\BemAventurar\\BemAventurar\\Services\\UsuarioService.cs",
+              "RelativeToolTip": "BemAventurar\\Services\\UsuarioService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T21:35:00.853Z",
+              "WhenOpened": "2025-09-25T21:44:23.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EventoService.cs",
+              "DocumentMoniker": "C:\\Projetos\\Proj-BemAventurar\\BemAventurar\\BemAventurar\\Services\\EventoService.cs",
+              "RelativeDocumentMoniker": "BemAventurar\\Services\\EventoService.cs",
+              "ToolTip": "C:\\Projetos\\Proj-BemAventurar\\BemAventurar\\BemAventurar\\Services\\EventoService.cs",
+              "RelativeToolTip": "BemAventurar\\Services\\EventoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T21:44:16.961Z",
               "EditorCaption": ""
             }
           ]

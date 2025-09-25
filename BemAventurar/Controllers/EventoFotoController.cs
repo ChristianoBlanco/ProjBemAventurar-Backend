@@ -60,7 +60,7 @@ namespace BemAventurar.Controllers
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
 
-            var response = await _eventoFotoService.CriarEventoFaq(eventoFoto);
+            var response = await _eventoFotoService.CriarEventoFoto(eventoFoto);
             return Ok(response);
         }
 
@@ -70,7 +70,7 @@ namespace BemAventurar.Controllers
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
 
-            var response = await _eventoFotoService.AtualizarEventoFaq(eventoFoto);
+            var response = await _eventoFotoService.AtualizarEventoFoto(eventoFoto);
 
             if (!response.Status)
                 return NotFound(response);
@@ -81,7 +81,7 @@ namespace BemAventurar.Controllers
         [HttpDelete("deletar/{fotoId}")]
         public async Task<ActionResult<ResponseModel<List<EventoFotoDTO>>>> DeletarEventoFoto(int fotoId)
         {
-            var response = await _eventoFotoService.DeletarEventoFaq(fotoId);
+            var response = await _eventoFotoService.DeletarEventoFoto(fotoId);
 
             if (!response.Status)
                 return NotFound(response);

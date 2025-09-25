@@ -1,5 +1,634 @@
 [
   {
+    "ContainingType": "BemAventurar.Controllers.EventoController",
+    "Method": "ListarEventos",
+    "RelativePath": "api/Evento",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BemAventurar.Controllers.EventoController",
+    "Method": "CriarEvento",
+    "RelativePath": "api/Evento",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "evento",
+        "Type": "BemAventurar.DTO.EventoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BemAventurar.Controllers.EventoController",
+    "Method": "BuscarEventoPorId",
+    "RelativePath": "api/Evento/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BemAventurar.Controllers.EventoController",
+    "Method": "AtualizarEvento",
+    "RelativePath": "api/Evento/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "evento",
+        "Type": "BemAventurar.DTO.EventoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BemAventurar.Controllers.EventoController",
+    "Method": "DeletarEvento",
+    "RelativePath": "api/Evento/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BemAventurar.Controllers.EventoFaqController",
+    "Method": "Listar",
+    "RelativePath": "api/EventoFaq",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BemAventurar.Controllers.EventoFaqController",
+    "Method": "Criar",
+    "RelativePath": "api/EventoFaq",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventoFaq",
+        "Type": "BemAventurar.DTO.EventoFaqDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BemAventurar.Controllers.EventoFaqController",
+    "Method": "Atualizar",
+    "RelativePath": "api/EventoFaq",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventoFaq",
+        "Type": "BemAventurar.DTO.EventoFaqDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BemAventurar.Controllers.EventoFaqController",
+    "Method": "Deletar",
+    "RelativePath": "api/EventoFaq/{faqId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "faqId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BemAventurar.Controllers.EventoFaqController",
+    "Method": "Buscar",
+    "RelativePath": "api/EventoFaq/buscar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventoId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pergunta",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BemAventurar.Controllers.EventoFotoController",
+    "Method": "AtualizarEventoFoto",
+    "RelativePath": "api/EventoFoto/atualizar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventoFoto",
+        "Type": "BemAventurar.DTO.EventoFotoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BemAventurar.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[BemAventurar.DTO.EventoFotoDTO, BemAventurar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BemAventurar.Controllers.EventoFotoController",
+    "Method": "BuscarEventoFoto",
+    "RelativePath": "api/EventoFoto/buscar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventoId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "nomeFoto",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BemAventurar.Models.ResponseModel\u00601[[BemAventurar.DTO.EventoFotoDTO, BemAventurar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BemAventurar.Controllers.EventoFotoController",
+    "Method": "CriarEventoFoto",
+    "RelativePath": "api/EventoFoto/criar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventoFoto",
+        "Type": "BemAventurar.DTO.EventoFotoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BemAventurar.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[BemAventurar.DTO.EventoFotoDTO, BemAventurar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BemAventurar.Controllers.EventoFotoController",
+    "Method": "DeletarEventoFoto",
+    "RelativePath": "api/EventoFoto/deletar/{fotoId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fotoId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BemAventurar.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[BemAventurar.DTO.EventoFotoDTO, BemAventurar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BemAventurar.Controllers.EventoFotoController",
+    "Method": "ListarEventosFoto",
+    "RelativePath": "api/EventoFoto/listar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "BemAventurar.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[BemAventurar.DTO.EventoFotoDTO, BemAventurar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BemAventurar.Controllers.EventoItinerarioController",
+    "Method": "AtualizarEventoItinerario",
+    "RelativePath": "api/EventoItinerario/atualizar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventoItinerario",
+        "Type": "BemAventurar.DTO.EventoItinerarioDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BemAventurar.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[BemAventurar.DTO.EventoItinerarioDTO, BemAventurar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BemAventurar.Controllers.EventoItinerarioController",
+    "Method": "BuscarEventoItinerario",
+    "RelativePath": "api/EventoItinerario/buscar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventoId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "nomeEvento",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BemAventurar.Models.ResponseModel\u00601[[BemAventurar.DTO.EventoItinerarioDTO, BemAventurar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BemAventurar.Controllers.EventoItinerarioController",
+    "Method": "CriarEventoItinerario",
+    "RelativePath": "api/EventoItinerario/criar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventoItinerario",
+        "Type": "BemAventurar.DTO.EventoItinerarioDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BemAventurar.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[BemAventurar.DTO.EventoItinerarioDTO, BemAventurar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BemAventurar.Controllers.EventoItinerarioController",
+    "Method": "DeletarEventoItinerario",
+    "RelativePath": "api/EventoItinerario/deletar/{itinerarioId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "itinerarioId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BemAventurar.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[BemAventurar.DTO.EventoItinerarioDTO, BemAventurar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BemAventurar.Controllers.EventoItinerarioController",
+    "Method": "ListarEventosItinerario",
+    "RelativePath": "api/EventoItinerario/listar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "BemAventurar.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[BemAventurar.DTO.EventoItinerarioDTO, BemAventurar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BemAventurar.Controllers.EventoVideoController",
+    "Method": "AtualizarEventoVideo",
+    "RelativePath": "api/EventoVideo/atualizar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventoVideo",
+        "Type": "BemAventurar.DTO.EventoVideoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BemAventurar.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[BemAventurar.DTO.EventoVideoDTO, BemAventurar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BemAventurar.Controllers.EventoVideoController",
+    "Method": "BuscarEventoVideo",
+    "RelativePath": "api/EventoVideo/buscar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventoId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "nome_video",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BemAventurar.Models.ResponseModel\u00601[[BemAventurar.DTO.EventoVideoDTO, BemAventurar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BemAventurar.Controllers.EventoVideoController",
+    "Method": "CriarEventoVideo",
+    "RelativePath": "api/EventoVideo/criar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventoVideo",
+        "Type": "BemAventurar.DTO.EventoVideoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BemAventurar.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[BemAventurar.DTO.EventoVideoDTO, BemAventurar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BemAventurar.Controllers.EventoVideoController",
+    "Method": "DeletarEventoVideo",
+    "RelativePath": "api/EventoVideo/deletar/{videoId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "videoId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BemAventurar.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[BemAventurar.DTO.EventoVideoDTO, BemAventurar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BemAventurar.Controllers.EventoVideoController",
+    "Method": "ListarEventosVideo",
+    "RelativePath": "api/EventoVideo/listar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "BemAventurar.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[BemAventurar.DTO.EventoVideoDTO, BemAventurar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BemAventurar.Controllers.InscricaoController",
+    "Method": "ListarInscricoes",
+    "RelativePath": "api/Inscricao",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BemAventurar.Controllers.InscricaoController",
+    "Method": "CriarInscricao",
+    "RelativePath": "api/Inscricao",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "inscricaoDto",
+        "Type": "BemAventurar.DTO.InscricaoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BemAventurar.Controllers.InscricaoController",
+    "Method": "EditarInscricao",
+    "RelativePath": "api/Inscricao",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "inscricaoDto",
+        "Type": "BemAventurar.DTO.InscricaoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BemAventurar.Controllers.InscricaoController",
+    "Method": "ExcluirInscricao",
+    "RelativePath": "api/Inscricao/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BemAventurar.Controllers.InscricaoController",
+    "Method": "PesquisarInscricoes",
+    "RelativePath": "api/Inscricao/pesquisar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cliente",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "cpf",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BemAventurar.Controllers.ModuloController",
     "Method": "CriarModulo",
     "RelativePath": "api/Modulo",

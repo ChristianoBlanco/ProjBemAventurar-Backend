@@ -77,7 +77,7 @@ namespace BemAventurar.Services
 
 
         // Cria nova foto
-        public async Task<ResponseModel<List<EventoFotoDTO>>> CriarEventoFaq(EventoFotoDTO eventoFoto)
+        public async Task<ResponseModel<List<EventoFotoDTO>>> CriarEventoFoto(EventoFotoDTO eventoFoto)
         {
             var response = new ResponseModel<List<EventoFotoDTO>>();
 
@@ -113,7 +113,7 @@ namespace BemAventurar.Services
         }
 
         // Atualiza foto existente
-        public async Task<ResponseModel<List<EventoFotoDTO>>> AtualizarEventoFaq(EventoFotoDTO eventoFoto)
+        public async Task<ResponseModel<List<EventoFotoDTO>>> AtualizarEventoFoto(EventoFotoDTO eventoFoto)
         {
             var response = new ResponseModel<List<EventoFotoDTO>>();
 
@@ -159,7 +159,7 @@ namespace BemAventurar.Services
         }
 
         // Deleta foto
-        public async Task<ResponseModel<List<EventoFotoDTO>>> DeletarEventoFaq(int fotoId)
+        public async Task<ResponseModel<List<EventoFotoDTO>>> DeletarEventoFoto(int fotoId)
         {
             var response = new ResponseModel<List<EventoFotoDTO>>();
 

@@ -8,14 +8,16 @@ namespace BemAventurar.Services
 {
     public class EventoService : IEventoInterface
     {
-        private readonly string _connectionString;
+        private readonly IConfiguration _configuration;
         private readonly IMapper _mapper;
 
-        public EventoService(string connectionString, IMapper mapper)
+        public EventoService(IConfiguration configuration, IMapper mapper)
         {
-            _connectionString = connectionString;
+            _configuration = configuration;
             _mapper = mapper;
         }
+
+        private string GetConnection() => _configuration.GetConnectionString("DefaultConnection");
 
         // Lista todos os eventos
         public async Task<IEnumerable<EventoDTO>> ListarEventos()
@@ -25,7 +27,7 @@ namespace BemAventurar.Services
                                Data_evento, CriadoEm
                         FROM Eventos";
 
-            using (var connection = new SqlConnection(_connectionString))
+            using (var connection = new SqlConnection(GetConnection()))
             {
                 return await connection.QueryAsync<EventoDTO>(sql);
             }
@@ -40,7 +42,7 @@ namespace BemAventurar.Services
                         FROM Eventos
                         WHERE EventoId = @EventoId";
 
-            using (var connection = new SqlConnection(_connectionString))
+            using (var connection = new SqlConnection(GetConnection()))
             {
                 return await connection.QueryFirstOrDefaultAsync<EventoDTO>(sql, new { EventoId = eventoId });
             }
@@ -56,7 +58,7 @@ namespace BemAventurar.Services
                         (@Nome_evento, @Desc_evento, @Sobre_evento, @Local_evento, 
                          @Material_evento, @Preco_evento, @Data_evento, @CriadoEm)";
 
-            using (var connection = new SqlConnection(_connectionString))
+            using (var connection = new SqlConnection(GetConnection()))
             {
                 var rows = await connection.ExecuteAsync(sql, evento);
                 return rows > 0;
@@ -76,7 +78,7 @@ namespace BemAventurar.Services
                             Data_evento = @Data_evento
                         WHERE EventoId = @EventoId";
 
-            using (var connection = new SqlConnection(_connectionString))
+            using (var connection = new SqlConnection(GetConnection()))
             {
                 var rows = await connection.ExecuteAsync(sql, evento);
                 return rows > 0;
@@ -88,7 +90,7 @@ namespace BemAventurar.Services
         {
             var sql = @"DELETE FROM Eventos WHERE EventoId = @EventoId";
 
-            using (var connection = new SqlConnection(_connectionString))
+            using (var connection = new SqlConnection(GetConnection()))
             {
                 var rows = await connection.ExecuteAsync(sql, new { EventoId = eventoId });
                 return rows > 0;

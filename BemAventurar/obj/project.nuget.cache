@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "H2aMy8GCVxY=",
+  "dgSpecHash": "TCrvZcPfhnM=",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\Proj-BemAventurar\\BemAventurar\\BemAventurar\\BemAventurar.csproj",
+  "projectFilePath": "C:\\Projetos\\.NET\\Proj-BemAventurar\\BemAventurar\\BemAventurar\\BemAventurar.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\chris\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\chris\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",

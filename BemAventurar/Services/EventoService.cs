@@ -24,7 +24,7 @@ namespace BemAventurar.Services
         {
             var sql = @"SELECT EventoId, Nome_evento, Desc_evento, Sobre_evento, 
                                Local_evento, Material_evento, Preco_evento, 
-                               Data_evento, CriadoEm
+                               Data_evento, CategoriaID, CriadoEm
                         FROM Eventos";
 
             using (var connection = new SqlConnection(GetConnection()))
@@ -38,7 +38,7 @@ namespace BemAventurar.Services
         {
             var sql = @"SELECT EventoId, Nome_evento, Desc_evento, Sobre_evento, 
                                Local_evento, Material_evento, Preco_evento, 
-                               Data_evento, CriadoEm
+                               Data_evento, CategoriaID, CriadoEm
                         FROM Eventos
                         WHERE EventoId = @EventoId";
 
@@ -53,10 +53,10 @@ namespace BemAventurar.Services
         {
             var sql = @"INSERT INTO Eventos 
                         (Nome_evento, Desc_evento, Sobre_evento, Local_evento, 
-                         Material_evento, Preco_evento, Data_evento, CriadoEm)
+                         Material_evento, Preco_evento, Data_evento, CategoriaID, CriadoEm)
                         VALUES 
                         (@Nome_evento, @Desc_evento, @Sobre_evento, @Local_evento, 
-                         @Material_evento, @Preco_evento, @Data_evento, @CriadoEm)";
+                         @Material_evento, @Preco_evento, @Data_evento, @CategoriaID, @CriadoEm)";
 
             using (var connection = new SqlConnection(GetConnection()))
             {
@@ -75,7 +75,8 @@ namespace BemAventurar.Services
                             Local_evento = @Local_evento,
                             Material_evento = @Material_evento,
                             Preco_evento = @Preco_evento,
-                            Data_evento = @Data_evento
+                            Data_evento = @Data_evento,
+                            CategoriaID = @CategoriaID
                         WHERE EventoId = @EventoId";
 
             using (var connection = new SqlConnection(GetConnection()))

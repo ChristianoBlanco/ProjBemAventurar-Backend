@@ -19,6 +19,7 @@ builder.Services.AddScoped<IPermissaoInterface, PermissaoService>();
 builder.Services.AddScoped<IInscricaoInterface, InscricaoService>();
 builder.Services.AddScoped<IEventoInterface, EventoService>();
 builder.Services.AddScoped<IEventoFaqInterface, EventoFaqService>();
+builder.Services.AddScoped<IEventoCategoriaInterface, EventoCategoriaService>();
 builder.Services.AddScoped<IEventoFotoInterface, EventoFotoService>();
 builder.Services.AddScoped<IEventoItinerarioInterface, EventoItinerarioService>();
 builder.Services.AddScoped<IEventoVideoInterface, EventoVideoService>();

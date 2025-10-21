@@ -1274,11 +1274,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\Proj-BemAventurar\\BemAventurar\\BemAventurar\\BemAventurar.csproj",
+      "projectUniqueName": "C:\\Projetos\\.NET\\Proj-BemAventurar\\BemAventurar\\BemAventurar\\BemAventurar.csproj",
       "projectName": "BemAventurar",
-      "projectPath": "C:\\Projetos\\Proj-BemAventurar\\BemAventurar\\BemAventurar\\BemAventurar.csproj",
+      "projectPath": "C:\\Projetos\\.NET\\Proj-BemAventurar\\BemAventurar\\BemAventurar\\BemAventurar.csproj",
       "packagesPath": "C:\\Users\\chris\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\Proj-BemAventurar\\BemAventurar\\BemAventurar\\obj\\",
+      "outputPath": "C:\\Projetos\\.NET\\Proj-BemAventurar\\BemAventurar\\BemAventurar\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

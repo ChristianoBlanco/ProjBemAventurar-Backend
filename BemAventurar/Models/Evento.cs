@@ -13,6 +13,9 @@ namespace BemAventurar.Models
         public int EventoId { get; set; }
 
         [Required]
+        public int? CategoriaId { get; set; }
+
+        [Required]
         public string? Nome_evento { get; set; }
 
        [Required]

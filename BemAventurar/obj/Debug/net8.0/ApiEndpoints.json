@@ -79,6 +79,85 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "BemAventurar.Controllers.EventoCategoriaController",
+    "Method": "Listar",
+    "RelativePath": "api/EventoCategoria",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BemAventurar.Controllers.EventoCategoriaController",
+    "Method": "Criar",
+    "RelativePath": "api/EventoCategoria",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventoCategoria",
+        "Type": "BemAventurar.DTO.EventoCategoriaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BemAventurar.Controllers.EventoCategoriaController",
+    "Method": "Atualizar",
+    "RelativePath": "api/EventoCategoria",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eventoCategoria",
+        "Type": "BemAventurar.DTO.EventoCategoriaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BemAventurar.Controllers.EventoCategoriaController",
+    "Method": "Deletar",
+    "RelativePath": "api/EventoCategoria/{CategoriaId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoriaId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BemAventurar.Controllers.EventoCategoriaController",
+    "Method": "Buscar",
+    "RelativePath": "api/EventoCategoria/buscar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoriaId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Nome_Categoria",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BemAventurar.Controllers.EventoFaqController",
     "Method": "Listar",
     "RelativePath": "api/EventoFaq",

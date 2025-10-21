@@ -6,7 +6,7 @@ namespace BemAventurar.Services
     public interface IEventoFaqInterface
     {
         Task<ResponseModel<List<EventoFaqDTO>>> ListarEventosFaq();
-        Task<ResponseModel<EventoFaqDTO>> BuscarEventoFaq(int eventoId, string pergunta);
+        Task<ResponseModel<EventoFaqDTO>> BuscarEventoFaq(int eventoId, string pergunta_faq);
         Task<ResponseModel<List<EventoFaqDTO>>> CriarEventoFaq(EventoFaqDTO eventoFaq);
         Task<ResponseModel<List<EventoFaqDTO>>> AtualizarEventoFaq(EventoFaqDTO eventoFaq);
         Task<ResponseModel<List<EventoFaqDTO>>> DeletarEventoFaq(int faqId);

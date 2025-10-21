@@ -4,6 +4,7 @@ using BemAventurar.Models;
 using Dapper;
 using System.Data.SqlClient;
 
+
 namespace BemAventurar.Services
 {
     public class EventoFaqService : IEventoFaqInterface
@@ -22,7 +23,7 @@ namespace BemAventurar.Services
             var response = new ResponseModel<List<EventoFaqDTO>>();
 
             using var connection = new SqlConnection(_configuration.GetConnectionString("DefaultConnection"));
-            var faqs = await connection.QueryAsync<EventoFaq>("SELECT * FROM EventoFaqs");
+            var faqs = await connection.QueryAsync<EventoFaq>("SELECT * FROM Evento_faqs");
             response.Dados = _mapper.Map<List<EventoFaqDTO>>(faqs);
             response.Mensagem = "Lista de FAQs carregada com sucesso.";
             response.Status = true;
@@ -30,14 +31,14 @@ namespace BemAventurar.Services
             return response;
         }
 
-        public async Task<ResponseModel<EventoFaqDTO>> BuscarEventoFaq(int eventoId, string pergunta)
+        public async Task<ResponseModel<EventoFaqDTO>> BuscarEventoFaq(int eventoId, string pergunta_faq)
         {
             var response = new ResponseModel<EventoFaqDTO>();
 
             using var connection = new SqlConnection(_configuration.GetConnectionString("DefaultConnection"));
             var faq = await connection.QueryFirstOrDefaultAsync<EventoFaq>(
-                "SELECT * FROM EventoFaqs WHERE EventoID = @EventoID AND Pergunta_faq = @Pergunta_faq",
-                new { EventoID = eventoId, Pergunta_faq = pergunta });
+                "SELECT * FROM Evento_faqs WHERE EventoID = @EventoID AND Pergunta_faq = @Pergunta_faq",
+                new { EventoID = eventoId, Pergunta_faq = pergunta_faq });
 
             if (faq == null)
             {
@@ -67,10 +68,10 @@ namespace BemAventurar.Services
             };
 
             await connection.ExecuteAsync(
-                "INSERT INTO EventoFaqs (EventoID, Pergunta_faq, Resposta_faq, CriadoEm) " +
+                "INSERT INTO Evento_faqs (EventoID, Pergunta_faq, Resposta_faq, CriadoEm) " +
                 "VALUES (@EventoID, @Pergunta_faq, @Resposta_faq, @CriadoEm)", parametros);
 
-            var faqs = await connection.QueryAsync<EventoFaq>("SELECT * FROM EventoFaqs");
+            var faqs = await connection.QueryAsync<EventoFaq>("SELECT * FROM Evento_Faqs");
             response.Dados = _mapper.Map<List<EventoFaqDTO>>(faqs);
             response.Mensagem = "FAQ criado com sucesso.";
             response.Status = true;
@@ -84,7 +85,7 @@ namespace BemAventurar.Services
 
             using var connection = new SqlConnection(_configuration.GetConnectionString("DefaultConnection"));
             var faqExistente = await connection.QueryFirstOrDefaultAsync<EventoFaq>(
-                "SELECT * FROM EventoFaqs WHERE FaqId = @FaqId", new { eventoFaq.FaqId });
+                "SELECT * FROM Evento_faqs WHERE FaqId = @FaqId", new { eventoFaq.FaqId });
 
             if (faqExistente == null)
             {
@@ -102,10 +103,10 @@ namespace BemAventurar.Services
             };
 
             await connection.ExecuteAsync(
-                "UPDATE EventoFaqs SET EventoID = @EventoID, Pergunta_faq = @Pergunta_faq, " +
+                "UPDATE Evento_faqs SET EventoID = @EventoID, Pergunta_faq = @Pergunta_faq, " +
                 "Resposta_faq = @Resposta_faq WHERE FaqId = @FaqId", parametros);
 
-            var faqs = await connection.QueryAsync<EventoFaq>("SELECT * FROM EventoFaqs");
+            var faqs = await connection.QueryAsync<EventoFaq>("SELECT * FROM Evento_faqs");
             response.Dados = _mapper.Map<List<EventoFaqDTO>>(faqs);
             response.Mensagem = "FAQ atualizado com sucesso.";
             response.Status = true;
@@ -119,7 +120,7 @@ namespace BemAventurar.Services
 
             using var connection = new SqlConnection(_configuration.GetConnectionString("DefaultConnection"));
             var faqExistente = await connection.QueryFirstOrDefaultAsync<EventoFaq>(
-                "SELECT * FROM EventoFaqs WHERE FaqId = @FaqId", new { FaqId = faqId });
+                "SELECT * FROM Evento_faqs WHERE FaqId = @FaqId", new { FaqId = faqId });
 
             if (faqExistente == null)
             {
@@ -129,9 +130,9 @@ namespace BemAventurar.Services
             }
 
             await connection.ExecuteAsync(
-                "DELETE FROM EventoFaqs WHERE FaqId = @FaqId", new { FaqId = faqId });
+                "DELETE FROM Evento_faqs WHERE FaqId = @FaqId", new { FaqId = faqId });
 
-            var faqs = await connection.QueryAsync<EventoFaq>("SELECT * FROM EventoFaqs");
+            var faqs = await connection.QueryAsync<EventoFaq>("SELECT * FROM Evento_faqs");
             response.Dados = _mapper.Map<List<EventoFaqDTO>>(faqs);
             response.Mensagem = "FAQ deletado com sucesso.";
             response.Status = true;
